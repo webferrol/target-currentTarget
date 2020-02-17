@@ -43,3 +43,7 @@ document.querySelector("#selector").addEventListener("change",e=>{
     crearNodo(script[op-1]);
     alert(array[op-1]);
 });
+
+document.querySelector(".pie_pagina").addEventListener("mouseout",e=>{
+    alert(e.relatedTarget.nodeName);
+});
